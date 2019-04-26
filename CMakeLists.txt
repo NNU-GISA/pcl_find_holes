@@ -10,5 +10,5 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable (detect_holes main.cpp easyloggingcpp/easylogging++.cc)
+add_executable (detect_holes easyloggingcpp/easylogging++.cc main.cpp)
 target_link_libraries (detect_holes ${PCL_LIBRARIES})
