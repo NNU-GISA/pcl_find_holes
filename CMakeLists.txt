@@ -4,6 +4,7 @@ project(pcl_detect_holes)
 set(PCL_DIR "~/myapps/share/pcl-1.7/")
 find_package(PCL 1.2 REQUIRED)
 set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
