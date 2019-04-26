@@ -4,6 +4,8 @@
 #include <pcl/point_types.h>
 #include "easyloggingcpp/easylogging++.h"
 
+// Initialize logging system
+INITIALIZE_EASYLOGGINGPP
 using namespace std;
 
 int main (int argc, char** argv)
