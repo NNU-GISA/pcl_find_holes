@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <pcl/io/auto_io.h>
+#include <pcl/io/auto_io.hpp>
 #include <pcl/point_types.h>
 #include "easyloggingcpp/easylogging++.h"
 
